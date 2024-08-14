@@ -1,5 +1,5 @@
 .comment-container {
-  position: relative; /* Added to position the delete button */
+  position: relative; 
   border: 1px solid #ddd;
   margin: 10px 0;
   padding: 15px;
@@ -48,7 +48,7 @@
   gap: 10px;
 }
 
-/* Updated button styles for rounded delete button */
+
 .comment-buttons button {
   padding: 5px 10px;
   border: none;
@@ -69,14 +69,15 @@
 
 .delete-button {
   position: absolute;
-  top: -10px; /* Adjust to position it at the top border */
-  right: -10px; /* Adjust to position it at the right border */
+  top: -10px; 
+  right: -10px; 
   width: 30px;
   height: 30px;
   border-radius: 50%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center;/* Add hover effect for delete button */
+
   background-color: #f44336;
   color: white;
   font-size: 16px;
@@ -89,9 +90,9 @@
   background-color: #c62828;
 }
 
-/* Style for replies */
+
 .reply-container {
-  position: relative; /* Added to position the delete button */
+  position: relative; 
   margin-left: 20px;
   border: 1px solid #ddd;
   padding: 10px;
@@ -126,7 +127,7 @@
   gap: 10px;
 }
 
-/* Updated button styles for rounded delete button */
+
 .reply-buttons button {
   padding: 4px 8px;
   border: none;
@@ -145,11 +146,11 @@
   color: white;
 }
 
-/* Position delete button on the border */
+
 .reply-buttons .delete-button {
   position: absolute;
-  top: -10px; /* Adjust to position it at the top border */
-  right: -10px; /* Adjust to position it at the right border */
+  top: -10px; 
+  right: -10px; 
   width: 30px;
   height: 30px;
   border-radius: 50%;
@@ -161,7 +162,7 @@
   cursor: pointer;
 }
 
-/* Add hover effect for delete button */
+
 .reply-buttons .delete-button:hover {
   background-color: #c62828;
 }
