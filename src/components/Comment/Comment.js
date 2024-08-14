@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Comment.css'; 
 import CommentForm from '../CommentForm/CommentForm';
-import { FaTrash } from 'react-icons/fa'; // Import the delete icon from react-icons
+import { FaTrash } from 'react-icons/fa'; 
 
 function Comment({ comment, onAddReply, onEditComment, onDeleteComment }) {
     const [isEditing, setIsEditing] = useState(false);

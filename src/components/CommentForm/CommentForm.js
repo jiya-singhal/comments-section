@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './CommentForm.css'; // Note the relative path
+import './CommentForm.css'; 
 
 
 function CommentForm({ onAddComment, parentId, isReply, onAddReply }) {
@@ -45,7 +45,7 @@ function CommentForm({ onAddComment, parentId, isReply, onAddReply }) {
                 />
             </div>
             {error && <p className="error-message">{error}</p>}
-            <button type="submit" className="submit-button">Submit</button>
+            <button type="submit" className="submit-button">Post</button>
         </form>
     );
 }
